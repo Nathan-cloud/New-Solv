@@ -1894,7 +1894,7 @@ label {
 }
 
 .theme__small--title::before{
-  content: url(/assets/images/shape/Line\ 2.png);
+  content: url(../images/shape/Line\ 2.png);
   display: inline-block;
   position: relative;
 
@@ -5327,7 +5327,7 @@ top: 30px;
 /*  11. Projects
 /*----------------------------------------*/
 footer{
-  background: url(/assets/images/shape/bg-footer.png);
+  background: url(../images/shape/bg-footer.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -5338,7 +5338,7 @@ footer{
 
 .testimonials{
   padding: 40px 0;
-  background: url(/assets/images/shape/bg-test.png);
+  background: url(../images/shape/bg-test.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -5371,7 +5371,7 @@ footer{
   margin-left: -50px;
 }
 .testimonial::before{
-  content: url(/assets/images/shape/Ellipse\ 16.png);
+  content: url(../images/shape/Ellipse\ 16.png);
   display: block;
   position: relative;
   left: 10%;
@@ -5379,7 +5379,7 @@ footer{
   transform: rotate(12.5deg);
 }
 .testimonial::after{
-  content: url(/assets/images/shape/Ellipse\ 15.png);
+  content: url(../images/shape/Ellipse\ 15.png);
   display: block;
   position: relative;
   left: -20px;
