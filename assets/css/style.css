@@ -61,7 +61,7 @@ a:focus,
 
 a:focus,
 a:hover {
-  color: #524d8b;
+  color: #2854a5;
   text-decoration: none;
 }
 
@@ -168,19 +168,19 @@ label {
 }
 
 *::-moz-selection {
-  background: #000;
+  background: #2854a5;
   color: #ffffff;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #000;
+  background: #2854a5;
   color: #ffffff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #000;
+  background: #2854a5;
   color: #ffffff;
   text-shadow: none;
 }
