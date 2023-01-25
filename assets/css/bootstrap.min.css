@@ -6686,6 +6686,10 @@ button.bg-dark:hover {
     float: none !important;
   }
 }
+.top-x{
+  position: relative;
+  top: 60px;
+}
 .position-static {
   position: static !important;
 }
