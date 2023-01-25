@@ -3573,7 +3573,7 @@ top: 30px;
 /*  05. Services
 /*----------------------------------------*/
 .service {
-  background: url(/assets/images/img/service-bg.png);
+  background: url(../images/img/service-bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5190,7 +5190,7 @@ top: 30px;
 /*  10. statistics
 /*----------------------------------------*/
 .statistics--area{
-  background: url(/assets/images/img/bg-counter.png);
+  background: url(../images/img/bg-counter.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
