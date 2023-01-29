@@ -90,7 +90,29 @@ mainSlider();
 			// instead of a settings object
 		]
 	});
-
+    /*------------------
+       logo Carousel
+    --------------------*/
+    $(".logo-carousel").owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        items: 4,
+        dots: false,
+        navText: ['<i class="ti-angle-left"></i>', '<i class="ti-angle-right"></i>'],
+        smartSpeed: 1200,
+        autoHeight: true,
+        mouseDrag: true,
+        autoplay: true,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            768: {
+                items: 4,
+            }
+        }
+    });
 	$('.review__active').slick({
 		speed: 1000,
 		autoplay: true,

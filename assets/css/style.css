@@ -102,7 +102,7 @@
     text-transform: normal;
     line-height: 1.3;
   }
-  
+
   h1 a,
   h2 a,
   h3 a,
@@ -4374,6 +4374,7 @@
     .who__content {
       padding: 34px 30px 39px;
     }
+    
   }
   .who__content h3 {
     font-size: 30px;
@@ -4525,6 +4526,7 @@
     .team__social ul li a {
       margin: 0 0.5px;
     }
+    
    
   }
   .team__social ul li a:hover {
@@ -4649,6 +4651,7 @@
     .contacts__bg {
       padding-right: 15px;
     }
+   
   }
   .contacts__bg--h4 {
     padding: 55px 50px 60px;
@@ -4662,6 +4665,7 @@
     .contacts__bg--h4 {
       padding: 30px 20px 40px;
     }
+   
   }
   
   .contacts__mcp {
@@ -4771,15 +4775,49 @@
     background: #383459;
     position: relative;
   }
+
+  @media (max-width: 767px) {
+    .testimonial {
+      width: 100%;
+      display: block;
+    }
+    .who__play{
+      left: 10px;
+    }
+
+  }
   @media (max-width: 767px) {
     .contacts__feature {
       padding: 25px 15px 25px 15px;
     }
+    .about-thumb  {
+      top: 20px;
+    
+     }
+     .testimonial::before{
+      visibility: hidden;
+      }
+      .testimonial::after{
+        visibility: hidden;
+      }
+
   }
+  @media  (max-width: 938px) {
+    .testimonial::before{
+      visibility: hidden;
+      }
+      .testimonial::after{
+        visibility: hidden;
+      }
+     
+    
+  }
+ 
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .contacts__feature h3 {
       font-size: 18px;
     }
+   
   }
   .contacts__feature h4 {
     font-size: 25px;
@@ -6925,7 +6963,7 @@
     border-radius: 5px;
     background-color: white;
     box-shadow: 0px 10px 32px 0px rgba(197, 197, 197, 0.4);
-    color: #221f3c;
+    color: #1c3563
     -webkit-transition: all 0.4s ease-out 0s;
     -moz-transition: all 0.4s ease-out 0s;
     -ms-transition: all 0.4s ease-out 0s;
@@ -6934,7 +6972,7 @@
   }
   
   .scroll-top:hover {
-    background: #221f3c;
+    background: #1c3563;
     color: #fff;
   }
   
@@ -7394,6 +7432,9 @@
   @media (max-width: 767px) {
     .feature__content--ex-2 {
       padding: 0 0px;
+    }
+    .history__right--thumb{
+      display: none;
     }
   }
   
